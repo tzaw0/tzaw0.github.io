@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRNG</title>
+    <script src="drng.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="d_generate">
+      <img src="images/Driller_icon.webp" width="20" height="20" /> Driller
+    </button>
+    <button id="e_generate">
+      <img src="images/Engineer_icon.webp" width="20" height="20" /> Engineer
+    </button>
+    <button id="g_generate">
+      <img src="images/Gunner_icon.webp" width="20" height="20" /> Gunner
+    </button>
+    <button id="s_generate">
+      <img src="images/Scout_icon.webp" width="20" height="20" /> Scout
+    </button>
+    <div id="result">
+      <table>
+        <tr>
+          <th id="primaryName" colspan="2"></th>
+        </tr>
+        <tr>
+          <td id="primaryMods" colspan="2"></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ocContainer">
+              <div class="ocFrame">
+                <img id="primaryOCFrame" width="80" height="80" />
+              </div>
+              <div class="ocPic">
+                <img id="primaryOCPic" width="38.4" height="38.4" />
+              </div>
+            </div>
+          </td>
+          <td id="primaryOCName"></td>
+        </tr>
+        <tr>
+          <th id="secondaryName" colspan="2"></th>
+        </tr>
+        <tr>
+          <td id="secondaryMods" colspan="2"></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ocContainer">
+              <div class="ocFrame">
+                <img id="secondaryOCFrame" width="80" height="80" />
+              </div>
+              <div class="ocPic">
+                <img id="secondaryOCPic" width="38.4" height="38.4" />
+              </div>
+            </div>
+          </td>
+          <td id="secondaryOCName"></td>
+        </tr>
+        <tr>
+          <th id="throwableName" colspan="2"></th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

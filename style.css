@@ -1,0 +1,98 @@
+body {
+  background-color: #1e2d2f;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  margin-top: 2em;
+}
+
+button {
+  font-size: 50px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 0.5em;
+  border: 1px solid;
+}
+
+button:hover,
+button:focus {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 2em transparent;
+  border-color: var(--color);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--color);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--color);
+  }
+}
+
+#d_generate {
+  color: #fdfa00;
+  --color: #fdfa00;
+}
+#e_generate {
+  color: #fd1400;
+  --color: #fd1400;
+}
+#g_generate {
+  color: #407734;
+  --color: #407734;
+}
+#s_generate {
+  color: #2566fd;
+  --color: #2566fd;
+}
+#result {
+  margin-top: 1em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+th {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 40px;
+}
+
+.ocContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.ocFrame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ocPic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#primaryOCName,
+#secondaryOCName {
+  text-align: left;
+}
