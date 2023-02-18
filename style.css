@@ -17,12 +17,14 @@ button {
   line-height: 1;
   margin: 0.5em;
   border: 3px solid;
-  transition: all 0.25s ease;
 }
 
-button:hover {
-  width: 204px;
-  height: 51px;
+button:hover,
+button:focus {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 1em transparent;
+  border-color: var(--color);
 }
 
 @-webkit-keyframes pulse {
