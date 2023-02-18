@@ -16,15 +16,13 @@ button {
   font-size: 1.5em;
   line-height: 1;
   margin: 0.5em;
-  border: 1px solid;
+  border: 3px solid;
+  transition: all 0.25s ease;
 }
 
-button:hover,
-button:focus {
-  -webkit-animation: pulse 0.5s;
-  animation: pulse 0.5s;
-  box-shadow: 0 0 0 2em transparent;
-  border-color: var(--color);
+button:hover {
+  width: 204px;
+  height: 51px;
 }
 
 @-webkit-keyframes pulse {
