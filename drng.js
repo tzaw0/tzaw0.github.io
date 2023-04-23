@@ -682,7 +682,7 @@ let g_arsenal = {
         {
           name: "Triple-Tech Chambers",
           type: "images/Frame_Overclock_Unstable.webp",
-          pic: "images/Icon_Upgrade_Heat.webp",
+          pic: "images/Icon_Upgrade_DamageGeneral.webp",
         },
       ],
     },
